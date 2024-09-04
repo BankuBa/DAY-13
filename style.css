@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.review{
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  text-align: center;
+  background-color: white;
+  padding: 5rem 2rem;
+  border-radius: 15px;
+}
+
+img{
+  width: 15rem;
+  border-radius: 10rem;
+}
+
+.name{
+  font-size: 3rem;
+}
+
+.job{
+  font-size:2rem;
+  color: #84bfdf;
+}
+
+.buttons{
+  display: flex;
+  gap: 2rem;
+}
+.btn{
+  width: 7rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.btn img{
+  width: 100%;
+  height: 100%;
+}
+
